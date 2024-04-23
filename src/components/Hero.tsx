@@ -14,8 +14,8 @@ const Hero = () => {
             </p>
 
             <div className=''>
-              <button className=' px-4 py-2 rounded-md bg-blue-800 text-white'>
-                Get started
+              <button className=' px-4 py-2 rounded-md bg-blue-primary text-white'>
+                Get Started
               </button>
             </div>
 
