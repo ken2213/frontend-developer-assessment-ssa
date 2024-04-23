@@ -16,6 +16,10 @@ Time: "6:05 pm - 6:20pm"
 // Skeleton or layout of components
 Date: "April 23, 2024"
 Time: "6:20pm - 8:34pm"
+
+// Navigation Bar & Hero Section
+Date: "April 23, 2024"
+Time: "8:51pm - 10:49pm"
 ```
 
 ## 
