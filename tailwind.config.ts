@@ -15,6 +15,9 @@ const config: Config = {
       },
       colors: {
         "blue-primary": "#2248e2",
+        "yellow-primary": "#ffc107",
+        "green-primary": "#17a2b8",
+        "footer-color": "#343a40"
       }
     },
   },
