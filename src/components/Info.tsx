@@ -12,7 +12,7 @@ const Info = () => {
 
       <div className='bg-white text-white min-h-[70vh] flex flex-col justify-center items-center'>
         <div className='w-[90%] xl:w-[1200px] grid grid-cols-1 xl:grid-cols-2 grid-rows-1 gap-x-10 gap-y-12 justify-items-center py-5 md:py-10'>
-          <div className='bg-yellow-primary w-[90%] md:w-[550px] min-h-[300px] flex p-[1rem] gap-x-4 rounded-xl shadow-lg'>
+          <div className='bg-yellow-primary w-[90%] md:w-[550px] min-h-[300px] flex p-[1rem] gap-x-4 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all'>
             <div className='w-[40%] flex flex-col items-center justify-center md:justify-start gap-y-4 py-4'>
               <div className='flex justify-center w-[75%]'>
                 <img 
@@ -43,7 +43,7 @@ const Info = () => {
           </div>
 
 
-          <div className='bg-green-primary w-[90%] md:w-[550px] min-h-[300px] flex p-[1rem] gap-x-4 rounded-xl shadow-lg'>
+          <div className='bg-green-primary w-[90%] md:w-[550px] min-h-[300px] flex p-[1rem] gap-x-4 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-all'>
             <div className='w-[40%] flex flex-col items-center justify-center md:justify-start gap-y-4 py-4'>
               <div className='flex justify-center w-[75%]'>
                 <img 

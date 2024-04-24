@@ -15,9 +15,9 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className=''>
-              <button className='px-2 py-1 md:px-4 md:py-2 rounded-sm md:rounded-md bg-blue-primary text-white text-[0.85rem] md:text-[1.1rem]'>
-                Get Started
+            <div className='flex justify-start'>
+              <button className='py-2 w-40 rounded-md shadow-sm border bg-blue-primary text-white hover:bg-white hover:text-blue-primary hover:border hover:pointer hover:border-blue-primary hover:shadow-md transition-all'>
+                <p>Get Started</p>
               </button>
             </div>
 
@@ -35,12 +35,12 @@ const Hero = () => {
         </div>
 
         <div className='h-[25%]  gap-x-10'>
-          <div className=' w-full flex justify-center py-8 gap-x-8 md:gap-x-16 border border-y-2 border-x-0 border-gray-100 '>
+          <div className=' w-full flex justify-center py-8 gap-x-16 border border-y-2 border-x-0 border-gray-100 '>
             <div>
               <img 
                 src="/assets/badge.play-store.svg" 
                 alt="Play Store Logo"
-                className='w-[100px] md:w-[150px]'
+                className='w-[150px]'
               />
             </div>
 
@@ -48,7 +48,7 @@ const Hero = () => {
               <img 
                 src="/assets/badge.app-store.svg" 
                 alt="Play Store Logo"
-                className='w-[100px] md:w-[150px]'
+                className='w-[150px]'
               />
             </div>
           </div>
