@@ -2,59 +2,99 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div>
-      <div className='bg-yellow-400 w-full h-[30vh]'>
-
+    <div className='text-gray-900 bg-white'>
+      <div className=' w-full h-[30vh] flex justify-center'>
+        <div className='w-[70%] md:w-[770px text-center'>
+          <h1 className='font-bold text-[2.5rem]'>
+            Meet Protoapp
+          </h1>
+          <p className="text-[1.2rem] font-thin">
+            The app lorem ipsum is common placeholder text used to demonstrate <br /> the graphic elements of a document or visual presentation
+          </p>
+        </div>
       </div>
 
       <div className='flex flex-col'>
-        <div className='bg-yellow-500 w-full flex justify-center'>
+        <div className='w-full flex justify-center'>
 
-          <div className='bg-yellow-600 w-[70%] my-16 min-h-[40vh] flex justify-center'>
-            <div className='bg-lime-700 w-full flex flex-row items-center justify-between'>
-              <div className='bg-yellow-800 w-[50%] h-full'>
-                
+          <div className='w-[80%] md:w-[700px] my-8 min-h-[40vh] flex justify-center'>
+            <div className='w-full flex flex-row items-center justify-between gap-x-4'>
+              <div className='w-[55%] h-full text-end flex flex-col gap-y-4'>
+                <h1 className='text-[2rem] font-bold'>Discover</h1>
+
+                <div className='flex justify-end'>
+                  <p className='text-[1rem] w-[80%]'>
+                    Get information on using these guidelines whenever you are using therefore they have same style and quality.
+                  </p>
+                </div>
               </div>
               
-              <div className='bg-yellow-900 w-[50%] h-full'>
-                
+              <div className='w-[45%] h-full'>
+                <img 
+                  src="/assets/product-search.svg" 
+                  alt="" 
+                />
               </div>
             </div>
           </div>
 
         </div>
 
-        <div className='bg-yellow-500 w-full flex justify-center'>
 
-          <div className='bg-yellow-600 w-[70%] my-16 min-h-[40vh] flex justify-center'>
-            <div className='bg-lime-700 w-full flex flex-row items-center justify-between'>
-              <div className='bg-yellow-800 w-[50%] h-full'>
-                
+
+
+        <div className='w-full flex justify-center'>
+
+          <div className='w-[80%] md:w-[700px] my-8 min-h-[40vh] flex justify-center'>
+            <div className='w-full flex flex-row-reverse items-center justify-between gap-x-4'>
+              <div className='w-[55%] h-full text-start flex flex-col gap-y-4'>
+                <h1 className='text-[2rem] font-bold'>Augmented</h1>
+                <div className='flex justify-start'>
+                  <p className='text-[1rem] w-[90%]'>
+                    Word salad often arouses curiosity due to its seemingly intelligentt and tasteful play on words.
+                  </p>
+                </div>
               </div>
               
-              <div className='bg-yellow-900 w-[50%] h-full'>
-                
+              <div className='w-[45%] h-full'>
+                <img 
+                  src="/assets/product-smartphone.svg" 
+                  alt="" 
+                />
               </div>
             </div>
           </div>
 
         </div>
 
-        <div className='bg-yellow-500 w-full flex justify-center'>
+        <div className='w-full flex justify-center'>
 
-          <div className='bg-yellow-600 w-[70%] my-16 min-h-[40vh] flex justify-center'>
-            <div className='bg-lime-700 w-full flex flex-row items-center justify-between'>
-              <div className='bg-yellow-800 w-[50%] h-full'>
-                
+          <div className='w-[80%] md:w-[700px] my-8 min-h-[40vh] flex justify-center'>
+            <div className=' w-full flex flex-row items-center justify-between gap-x-4'>
+              <div className='w-[50%] h-full text-end flex flex-col gap-y-2'>
+                <h1 className='text-[2rem] font-bold'>
+                  Endless <br />
+                  Possibilities
+                </h1>
+
+                <div className='flex justify-end'>
+                  <p className='text-[1rem] w-[94%]'>
+                    Management Systems shouldn't be a bore. Run out of words? Here's some lorem ipsum: Lorem ipsum dolor sit amet
+                  </p>
+                </div>
               </div>
               
-              <div className='bg-yellow-900 w-[50%] h-full'>
-                
+              <div className='w-[50%] h-full'>
+                <img 
+                  src="/assets/product-work.svg" 
+                  alt="" 
+                />
               </div>
             </div>
           </div>
 
         </div>
+
       </div>
     </div>
   )

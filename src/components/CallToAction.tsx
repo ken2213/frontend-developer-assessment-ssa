@@ -2,17 +2,38 @@ import React from 'react'
 
 const CallToAction = () => {
   return (
-    <div className='bg-green-400 py-20'>
-      <div className='bg-green-500 flex flex-col justify-center'>
+    <div className='py-28 bg-blue-primary text-white'>
+      <div className='absolute right-0 top-[263vh]'>
+        <img 
+          src="/assets/bg-decals2.svg"
+          alt="" 
+          className='relative z-10 top-0'
+        />
+      </div>
+      <div className='flex flex-col justify-center gap-y-20'>
         <div className='flex flex-col items-center justify-center'>
-          <h1>Deep Dive. Ready?</h1>
-          <p>So are we. Unless. You're. Not. Word filler.</p>
+          <h1 className='text-[2.8rem] font-bold'>
+            Deep dive. Ready?
+          </h1>
+          <p className='text-[1.3rem] font-normal'>
+            So are we. Unless. You're. Not. Word filler.
+          </p>
         </div>
 
-        <div className='w-full flex justify-center bg-green-900'>
-          <div className='w-[70%] bg-green-800 h-[10vh] flex justify-center flex-row gap-x-4'>
-            <div>addasdads</div>
-            <div>dasdasasdadzx</div>
+        <div className='w-full flex justify-center'>
+          <div className='w-[70%] h-[10vh] flex justify-center flex-row gap-x-12'>
+            <div>
+              <img 
+                src="/assets/badge.play-store.svg" 
+                alt="" 
+              />
+            </div>
+            <div>
+              <img 
+                src="/assets/badge.app-store.svg" 
+                alt="" 
+              />
+            </div>
           </div>
         </div>
       </div>
