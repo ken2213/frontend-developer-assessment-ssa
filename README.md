@@ -1,8 +1,11 @@
 
-# Getting Started
+# Introduction
+Kenneth Ornieta's Repository of SSA Group's Assessment of Assistant Front-end Developer Role.
 
+## Live Deployment Website Link
+[Assistant Front-end Developer Assessment](https://frontend-developer-assessment-ssa.vercel.app/)
 
-# Logged Times of Development
+## Logged Times of Development
 
 ``` javascript
 // Setup of framework and assets
@@ -39,7 +42,4 @@ Time: "8:39pm - 9:55pm"
 Time_Spent: "1 hr & 16 mins"
 ```
 
-## 
 
-
-## Deploy on Vercel
