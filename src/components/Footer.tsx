@@ -2,19 +2,37 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-purple-400 px-20'>
-      <div className='w-[60%]'>
-        <div className='h-[70%] bg-purple-600 flex'>
-          <div className='bg-purple-700'>adsads</div>
-          <div className='bg-purple-800'>
-            <h1>Protoapp</h1>
-            <p>Camp One Inc, LLC</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas natus reiciendis, libero amet ipsum ipsa veniam deleniti ad consectetur repellendus, perferendis, ut odit! Voluptatibus commodi tempora, itaque sed asperiores voluptas cum impedit dignissimos, aut quasi nostrum quod vel. Minima dolore provident porro hic quasi pariatur natus. Optio praesentium sed pariatur.</p>
+    <div className='w-full bg-footer-color px-10 md:px-20 lg:px-32 xl:px-80 py-20'>
+      <div className='w-[60%] xl:w-[500px] flex flex-col gap-y-12'>
+        <div className='h-[70%] flex gap-x-4'>
+          <div className='w-[10%]'>
+            <img 
+              src="/assets/logo1.svg" 
+              alt=""
+              className=''
+            />
+          </div>
+          <div className='w-[90%] flex flex-col gap-y-2'>
+            <div>
+              <h1 className='font-bold text-[1.4rem]'>
+                Protoapp
+              </h1>
+              
+              <p className='text-[1.05rem]'>
+                Camp One Inc, LLC
+              </p>
+            </div>
+
+            <div>
+              <p className='text-[0.94rem] leading-7'>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas natus reiciendis, libero amet ipsum ipsa veniam deleniti ad consectetur repellendus, perferendis, ut odit! Voluptatibus commodi tempora consectetur 
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className='bg-purple-900'>
-          C 2019 Protoapp. All rights reserved
+        <div className=''>
+          &copy; 2019 Protoapp. All rights reserved
         </div>
       </div>
     </div>
