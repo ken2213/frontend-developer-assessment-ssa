@@ -32,6 +32,11 @@ Total_Time_Spent: "1 hr & 42 mins"
 Date: "April 24, 2024"
 Time: "8:20am - 10:11am"
 Time_Spent: "1 hr & 51 mins"
+
+// Mobile Responsiveness
+Date: "April 24, 2024"
+Time: "8:39pm - 9:55pm"
+Time_Spent: "1 hr & 16 mins"
 ```
 
 ## 
