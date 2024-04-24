@@ -51,7 +51,7 @@ const Features = () => {
                 <h1 className='text-[2rem] font-bold'>Augmented</h1>
                 <div className='flex justify-start'>
                   <p className='text-[1rem] w-[90%]'>
-                    Word salad often arouses curiosity due to its seemingly intelligentt and tasteful play on words.
+                    Word salad often arouses curiosity due to its seemingly intelligent and tasteful play on words.
                   </p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Features = () => {
 
                 <div className='flex justify-end'>
                   <p className='text-[1rem] w-[94%]'>
-                    Management Systems shouldn't be a bore. Run out of words? Here's some lorem ipsum: Lorem ipsum dolor sit amet
+                    Management Systems shouldn&apos;t be a bore. Run out of words? Here&apos;s some lorem ipsum: Lorem ipsum dolor sit amet
                   </p>
                 </div>
               </div>

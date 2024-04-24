@@ -16,7 +16,7 @@ const CallToAction = () => {
             Deep dive. Ready?
           </h1>
           <p className='text-[1.3rem] font-normal'>
-            So are we. Unless. You're. Not. Word filler.
+            So are we. Unless. You&apos;re. Not. Word filler.
           </p>
         </div>
 
